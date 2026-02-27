@@ -32,7 +32,7 @@ This guide provides a step-by-step walkthrough to completely restore your Xiaomi
 * **TWRP v3.7.0_9.0-tissot:** [Download Recovery](https://dl.twrp.me/tissot/twrp-3.7.0_9-0-tissot.img.html)
 * **Magisk v17.3:** [Download Zip](https://github.com/topjohnwu/Magisk/releases/tag/v17.3)
 * **Modified System Image:** [Download system_root.img (3GB via MEGA)](https://mega.nz/file/dNkEzCya#3Y6HVq-rnXxLFKOE7UB5qVDvA-w4-SwS9RP1uCzHpQQ)
-* **Required Apps (Attached in Realeses):** `System Root Info.apk`, `Tissot Optimizer.apk`, `Root Terminal.apk`
+* **Required Apps (Attached in Releases):** `System Root Info.apk`, `Tissot Optimizer.apk`, `Root Terminal.apk`
 
 ---
 
@@ -99,18 +99,18 @@ If your device is "dead" and shows no signs of life, use QFIL to make it bootabl
     adb install Tissot_Optimizer.apk
     adb install Root_Terminal.apk
     ```
-9.  **Final Security Patch:**
-10.  ```bash
+9.  **Final System Flash:**
+    ```bash
     adb reboot bootloader
     fastboot flash system_a system_root.img
     fastboot reboot
     ```
-11. **Activation:** Open **System Root Info**, select "Accept & Apply Root Changes", and grant permanent Root access. Repeat for the other two apps to finalize the configuration.
+10. **Activation:** Open **System Root Info**, select "Accept & Apply Root Changes", and grant permanent Root access. Repeat for the other two apps to finalize the configuration.
 
 ---
 
 ## Credits
-* **Tools:** TWRP, QFIL, MAGISK (https://github.com/topjohnwu/Magisk)
+* **Tools:** [TWRP](https://twrp.me/), QFIL, [Magisk](https://github.com/topjohnwu/Magisk)
 * **Graphics:** [Android Logo](https://www.vecteezy.com/free-png/android-logo) and [Lock Icon](https://de.vecteezy.com/kostenloses-png/schloss-offen) via Vecteezy
 
 **Happy Modding!**
