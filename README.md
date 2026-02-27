@@ -1,11 +1,12 @@
 # Xiaomi Mi A1 (Tissot) Full System Restoration Guide
-The ultimate restoration and rescue documentation for the Xiaomi Mi A1 (Tissot). Fix hard bricks (QFIL), solve bootloops, and restore a stable, rooted Android 8.1 system with custom optimizations.
 
 **By l1rox3 and adrian-refck**
 
+> The ultimate restoration and rescue documentation for the Xiaomi Mi A1 (Tissot). Fix hard bricks (QFIL), solve bootloops, and restore a stable, rooted Android 8.1 system with custom optimizations.
+
 **Estimated Time:** 30–60 minutes (depending on your scenario and experience level)
 
-##  Background
+## Background
 We wrote this guide because we spent a year working and trying to restore this device. At times, the phone was completely dead and had to be re-flashed from scratch, but there was no proper comprehensive guide available. Once we successfully finished the project (and the phone is now fully functional with root again), we decided to publish this guide along with the necessary files on GitHub to save others the time and hard work.
 
 > **⚠️ IMPORTANT WARNING:** Please do NOT download the newest Fastboot ROM! Flashing the newest ROM will cause the device to fall into a bootloop.
@@ -30,7 +31,8 @@ This guide provides a step-by-step walkthrough to completely restore your Xiaomi
 * **Tissot Fastboot ROM V9.6.4.0:** [Download Global Fastboot](https://xiaomirom.com/en/download/mi-a1-tissot-stable-V9.6.4.0.ODHMIFE/#global-fastboot)
 * **TWRP v3.7.0_9.0-tissot:** [Download Recovery](https://dl.twrp.me/tissot/twrp-3.7.0_9-0-tissot.img.html)
 * **Magisk v17.3:** [Download Zip](https://github.com/topjohnwu/Magisk/releases/tag/v17.3)
-* **Required Files (Attached to Repository):** `system_root.img`, `System Root Info.apk`, `Tissot Optimizer.apk`, `Root Terminal.apk`
+* **Modified System Image:** [Download system_root.img (3GB via MEGA)](https://mega.nz/file/dNkEzCya#3Y6HVq-rnXxLFKOE7UB5qVDvA-w4-SwS9RP1uCzHpQQ)
+* **Required Apps (Attached to Repo):** `System Root Info.apk`, `Tissot Optimizer.apk`, `Root Terminal.apk`
 
 ---
 
