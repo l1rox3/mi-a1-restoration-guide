@@ -109,7 +109,7 @@ If your device is "dead" and shows no signs of life, use QFIL to make it bootabl
 ---
 
 ## Credits
-* **Tools:** TWRP, QFIL
+* **Tools:** TWRP, QFIL, MAGISK (https://github.com/topjohnwu/Magisk)
 * **Graphics:** [Android Logo](https://www.vecteezy.com/free-png/android-logo) and [Lock Icon](https://de.vecteezy.com/kostenloses-png/schloss-offen) via Vecteezy
 
 **Happy Modding!**
