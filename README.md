@@ -68,7 +68,7 @@ If your device is "dead" and shows no signs of life, use QFIL to make it bootabl
     fastboot flash persist images/persist.img
     fastboot reboot
     ```
-6.  **Setup:** During initial setup, **skip Wi-Fi**. Downloading the latest updates immediately will cause a bootloop. Disable automatic software updates in settings once the setup is complete.
+6.  **Setup:** It may restart a few times. Just leave it plugged in and wait for the setup to appear. During initial setup, **skip Wi-Fi**. Downloading the latest updates immediately will cause a bootloop. Disable automatic software updates in settings once the setup is complete.
 
 ### Option B: System with Root
 *Follow these steps exactly to avoid issues.*
@@ -79,7 +79,7 @@ If your device is "dead" and shows no signs of life, use QFIL to make it bootabl
     fastboot flash persist images/persist.img
     fastboot reboot
     ```
-3.  **Initial Setup:** Wait 5-8 minutes for the first boot. Select "US English" and **skip everything** (SIM, Wi-Fi, Password). Disable all Google data collection and Xiaomi services.
+3.  **Initial Setup:** It may restart a few times. Just leave it plugged in and wait for the setup to appear. Select "US English" and **skip everything** (SIM, Wi-Fi, Password). Disable all Google data collection and Xiaomi services.
 4.  **Enable Debugging:** Go to `Settings` -> `About Phone` -> Tap `Build Number` until Developer Mode is active. In `Developer Options`, enable **USB Debugging** and **Enable view attribute inspection**.
 5.  **Prepare Magisk:**
     ```bash
