@@ -42,7 +42,7 @@ This guide provides a step-by-step walkthrough to completely restore your Xiaomi
 If your device is "dead" and shows no signs of life, use QFIL to make it bootable again.
 
 1.  **Open the device:** Watch tutorials if needed (e.g., [YouTube](https://www.youtube.com/watch?v=J6M-WBbPAZM)), but only open the housing—do not replace the battery.
-2.  **Locate Test Points:** Find the specific test points for Tissot online.
+2.  **Locate Test Points:** Find the specific test points for Tissot online.[Youtube](https://www.youtube.com/watch?v=c_zP3-GiOaI)
 3.  **Preparation:** Download the firmware (Android 8 is recommended).
 4.  **Flashing:** Start QFIL. Bridge the two test points while plugging the USB cable into the phone. The device should now be selectable in QFIL.
 
